@@ -29,7 +29,7 @@ export default function Footer() {
               </p>
               <p>
                 For the latest information and contact information for PyCon
-                APAC 2023, please visit our{" "}
+                APAC 2024, please visit our{" "}
                 <a
                   href="https://python.or.id"
                   className="font-bold text-[#42449e] hover:underline"
