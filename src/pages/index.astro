@@ -5,7 +5,9 @@ import Default from "@layouts/Default.astro";
 <Default title="PyCon APAC 2024">
   <main class="flex flex-col justify-center items-center">
     <section id="hero" class="w-full">
-      <div class="flex flex-col sm:flex-row bg-[#edecf4] p-8 min-h-svh">
+      <div
+        class="flex flex-col sm:flex-row bg-[#edecf4] p-8 min-h-svh justify-center"
+      >
         <div class="flex flex-col w-1/2 gap-y-2 justify-center md:ml-24">
           <h1 class="text-2xl md:text-5xl">PyCon APAC 2024</h1>
           <h2 class="text-xl md:text-2xl">
@@ -37,7 +39,9 @@ import Default from "@layouts/Default.astro";
         class="flex flex-col bg-[#f7f7f7] p-12 gap-y-12 justify-center items-center min-h-max"
       >
         <h2 class="text-2xl md:text-5xl">Latest Information</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-4 w-3/4">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-4 w-3/4"
+        >
           <article class="flex flex-col bg-white p-8 rounded-lg border gap-y-8">
             <h3 class="text-xl xl:text-4xl">Call for Proposals</h3>
             <p class="text-lg">
@@ -48,44 +52,59 @@ import Default from "@layouts/Default.astro";
             <a
               href="/cfp"
               class="font-bold text-[#42449e] hover:underline"
-              >Submit a Proposal</a>
+              target="_blank"
+              rel="noopener noreferrer">Submit a Proposal</a
+            >
           </article>
           <article class="flex flex-col bg-white p-8 rounded-lg border gap-y-8">
             <h3 class="text-xl xl:text-4xl">Sponsorship</h3>
             <p class="text-lg">
-              We are looking for sponsors to help make PyCon APAC 2024 a success.
-              If you are interested in sponsoring, please contact us.
+              We are looking for sponsors to help make PyCon APAC 2024 a
+              success. If you are interested in sponsoring, please contact us.
             </p>
             <a
               href="/#"
               class="font-bold text-[#42449e] hover:underline"
-              >See More</a>
+              target="_blank"
+              rel="noopener noreferrer">See More</a
+            >
           </article>
           <article class="flex flex-col bg-white p-8 rounded-lg border gap-y-8">
             <h3 class="text-xl xl:text-4xl">Volunteers</h3>
             <p class="text-lg">
-              We are looking for volunteers to help with various tasks during the conference.
-              If you are interested in volunteering, please contact us.
+              We are looking for volunteers to help with various tasks during
+              the conference. If you are interested in volunteering, please
+              contact us.
             </p>
             <a
               href="/#"
               class="font-bold text-[#42449e] hover:underline"
-              >Apply as a volunteer</a>
+              target="_blank"
+              rel="noopener noreferrer">Apply as a volunteer</a
+            >
           </article>
         </div>
       </div>
     </section>
-    <section id="contact" class="flex flex-col bg-[#edecf4] p-8">
-      <h2 class="text-2xl md:text-5xl">Contact Us</h2>
-      <p class="text-xl">
-        If you have any questions, feel free to contact us at{" "}
-        <a
-          href="mailto:pycon@python.id"
-          class="font-bold text-[#42449e] hover:underline"
-        >
-          <p>email</p>
-        </a>
-      </p>
+    <section id="contact-us" class="w-full">
+      <div
+        class="flex flex-col p-12 gap-y-12 justify-center items-center min-h-max"
+      >
+        <h2 class="text-2xl md:text-5xl">Contact Us</h2>
+        <div class="flex flex-col items-center gap-y-4">
+          <p class="text-center">
+            PyCon APAC 2024 is organized by volunteers, so it may take a week
+            for us to reply to inquiries.
+          </p>
+          <!-- button -->
+          <a
+            href="mailto:pycon@python.id"
+            class="bg-[#42449e] text-white font-bold py-2 px-4 rounded-lg hover:bg-[#2c2f6b]"
+          >
+            pyconid@gmail.com
+          </a>
+        </div>
+      </div>
     </section>
   </main>
 </Default>

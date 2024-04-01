@@ -18,30 +18,27 @@ const socials = [
 
 export default function Footer() {
   return (
-    <footer className="bg-primary px-4 py-6 lg:p-16">
+    <footer className="bg-[#42449e] px-4 py-6 lg:p-16">
       <div className=" rounded-3xl bg-white p-8 lg:p-12">
-        <div className="mt-8 space-y-8">
-          <div className="flex items-center justify-center lg:justify-start">
+        <div className="space-y-8">
+          <div className="flex gap-8 items-center justify-center flex-col xl:flex-row">
             <img src="/pythonid.svg" alt="logo_pycon" />
-          </div>
-        </div>
-
-        <div className="mx-auto  text-center text-xs md:text-base">
-          <div
-            className="mb-5 mt-7 h-px bg-primary-black/30 lg:mb-7"
-            role="separator"
-          />
-          <div>
-            <div className="flex flex-col items-center justify-center space-y-3 lg:grid lg:grid-cols-3 lg:flex-row lg:space-y-0">
-              <div className="order-1 text-left lg:w-4/5 lg:text-sm">
-                <p>
-                  PyCon APAC 2024 is organized by volunteers, so it may take a
-                  week for us to reply to inquiries.
-                </p>
-                <p>Thank you for your patience.</p>
-              </div>
-
-              <ul className="order-2 flex flex-row md:flex-row md:gap-7 lg:order-last lg:justify-end lg:gap-4">
+            <div>
+              <p>
+                PyCon APAC 2024 is hosted by Python Jogja and Python Indonesia.
+              </p>
+              <p>
+                For the latest information and contact information for PyCon
+                APAC 2023, please visit our{" "}
+                <a
+                  href="https://python.or.id"
+                  className="font-bold text-[#42449e] hover:underline"
+                >
+                  blog
+                </a>
+                .
+              </p>
+              <ul className="order-2 flex flex-row md:flex-row md:gap-7 lg:gap-4">
                 {socials.map((social) => (
                   <li
                     key={social.href}
