@@ -15,3 +15,8 @@ This is a teaser for PyCon APAC 2024. The conference will be held in Jogjakarta,
 ### Running the app
 
 `pnpm dev`
+
+### TODO
+
+- [ ] Add a new feature
+- [ ] Update the README.md
