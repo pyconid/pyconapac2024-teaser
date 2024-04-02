@@ -6,7 +6,7 @@ import Default from "@layouts/Default.astro";
   <main class="flex flex-col justify-center items-center">
     <section id="hero" class="w-full">
       <div
-        class="flex flex-col sm:flex-row bg-[#edecf4] p-8 min-h-svh justify-center items-center gap-10 "
+        class="flex flex-col sm:flex-row bg-[#edecf4] p-8 min-h-svh justify-center items-center gap-10"
       >
         <div class="flex flex-col md:w-1/2 gap-2 justify-center md:ml-24">
           <h1 class="text-6xl md:text-8xl">PyCon APAC 2024</h1>
@@ -49,11 +49,7 @@ import Default from "@layouts/Default.astro";
               workshops. Submit your proposal by August 1, 2024.
             </p>
             <!-- disable until the server is ready -->
-            <a
-              href="/cfp"
-              class="font-bold text-[#42449e] hover:underline"
-              target="_blank"
-              rel="noopener noreferrer">Submit a Proposal</a
+            <a class="text-gray-950 opacity-50">Submit a Proposal</a
             >
           </article>
           <article class="flex flex-col bg-white p-8 rounded-lg border gap-y-8">
@@ -62,12 +58,7 @@ import Default from "@layouts/Default.astro";
               We are looking for sponsors to help make PyCon APAC 2024 a
               success. If you are interested in sponsoring, please contact us.
             </p>
-            <a
-              href="/#"
-              class="font-bold text-[#42449e] hover:underline"
-              target="_blank"
-              rel="noopener noreferrer">See More</a
-            >
+            <a class="text-gray-950 opacity-50">See More</a>
           </article>
           <article class="flex flex-col bg-white p-8 rounded-lg border gap-y-8">
             <h3 class="text-xl xl:text-4xl">Volunteers</h3>
@@ -76,12 +67,7 @@ import Default from "@layouts/Default.astro";
               the conference. If you are interested in volunteering, please
               contact us.
             </p>
-            <a
-              href="/#"
-              class="font-bold text-[#42449e] hover:underline"
-              target="_blank"
-              rel="noopener noreferrer">Apply as a volunteer</a
-            >
+            <a class="text-gray-950 opacity-50">Apply as a volunteer</a>
           </article>
         </div>
       </div>
@@ -99,6 +85,8 @@ import Default from "@layouts/Default.astro";
           <!-- button -->
           <a
             href="mailto:pycon@python.id"
+            target="_blank"
+            rel="noopener noreferrer"
             class="bg-[#42449e] text-white font-bold py-2 px-4 rounded-lg hover:bg-[#2c2f6b]"
           >
             pyconid@gmail.com

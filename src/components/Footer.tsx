@@ -32,6 +32,8 @@ export default function Footer() {
                 APAC 2024, please visit our{" "}
                 <a
                   href="https://python.or.id"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="font-bold text-[#42449e] hover:underline"
                 >
                   blog
