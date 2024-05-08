@@ -1,21 +1,47 @@
 ---
-import "@styles/base.css";
-import Footer from "@components/Footer";
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
 const { title } = Astro.props;
 ---
 
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/x-icon" href="images/logo/favicon.png">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/slick.css" />
+    <link rel="stylesheet" href="/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/css/venobox.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
   <body>
-    <div class="flex flex-col min-h-screen">
-      <slot />
-    </div>
+    <Header />
+    <slot />
     <Footer />
+    <!--=================
+         js here 
+     ==================-->
+    <script src="/js/jquery-1.12.4.min.js" is:inline></script>
+    <script src="/js/popper.min.js" is:inline></script>
+    <script src="/js/bootstrap.min.js" is:inline></script>
+    <script src="/js/slick.min.js" is:inline></script>
+    <script src="/js/venobox.min.js" is:inline></script>
+    <script src="/js/mixitup.min.js" is:inline></script>
+    <script src="/js/loopcounter.js" is:inline></script>
+    <script src="/js/jquery.nicescroll.min.js" is:inline></script>
+    <script is:inline>
+      $(document).ready(function () {
+        $("#boxscroll").niceScroll({
+          cursorborder: "",
+          cursorcolor: "#00F",
+          boxzoom: true,
+        });
+      });
+    </script>
+    <script src="/js/script.js" is:inline></script>
   </body>
 </html>

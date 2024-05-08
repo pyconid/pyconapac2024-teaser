@@ -3,92 +3,241 @@ import Default from "@layouts/Default.astro";
 ---
 
 <Default title="PyCon APAC 2024">
-  <main class="flex flex-col justify-center items-center">
-    <section id="hero" class="w-full">
-      <div
-        class="flex flex-col sm:flex-row bg-[#edecf4] p-8 min-h-svh justify-center items-center gap-10"
-      >
-        <div class="flex flex-col md:w-1/2 gap-2 justify-center md:ml-24">
-          <h1 class="text-6xl md:text-8xl">PyCon APAC 2024</h1>
-          <h2 class="text-xl md:text-2xl">
-            We look forward to welcoming you back soon!
-          </h2>
-          <p class="text-xl md:text-xl font-bold">
-            Conference Date: October 25th-27th, 2024
-          </p>
-          <a
-            href="https://maps.app.goo.gl/iTix8UXVDjNBn2vu8"
-            class="font-bold text-[#42449e] hover:underline"
-          >
-            <p class="text-xl md:text-xl">Yogyakarta, Indonesia</p>
-          </a>
-        </div>
-        <div class="flex flex-col w-1/2 md:w-1/2 justify-center items-center">
-          <img
-            src="/pythonid.svg"
-            alt="PythonID Logo"
-            width="350"
-            height="350"
-          />
+  <main>
+    <!--=================
+        slider-part start
+    ==================-->
+    <section id="slider-part">
+      <div class="single-slider">
+        <div class="overlay">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="slider-text">
+                  <p><b>(Em)powered by Python</b></p>
+                  <h2>PYCON APAC 2024</h2>
+                  <p><b>October 25-27th - Yogyakarta, Indonesia</b></p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <section id="latest-information" class="w-full">
-      <div
-        class="flex flex-col bg-[#f7f7f7] p-12 gap-y-12 justify-center items-center min-h-max"
-      >
-        <h2 class="text-2xl md:text-5xl">Latest Information</h2>
-        <div
-          class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:w-3/4"
-        >
-          <article class="flex flex-col bg-white p-8 rounded-lg border gap-y-8">
-            <h3 class="text-xl xl:text-4xl">Call for Proposals</h3>
-            <p class="text-lg">
-              There will be submission to propose for talks, tutorials, and
-              workshops. Details will be announced soon.
-            </p>
-            <!-- disable until the server is ready -->
-            <a class="text-gray-950 opacity-50">Soon</a
-            >
-          </article>
-          <article class="flex flex-col bg-white p-8 rounded-lg border gap-y-8">
-            <h3 class="text-xl xl:text-4xl">Sponsorship</h3>
-            <p class="text-lg">
-              We are looking for sponsors to help make PyCon APAC 2024 a
-              success. If you are interested in sponsoring, please contact us.
-            </p>
-            <a href="https://drive.google.com/file/d/16GACQsInqCd0298iMXTjwzJHico0Hgah/view?usp=sharing" class="text-gray-950 opacity-50">Check our prospectus</a>
-          </article>
-          <article class="flex flex-col bg-white p-8 rounded-lg border gap-y-8">
-            <h3 class="text-xl xl:text-4xl">Volunteers</h3>
-            <p class="text-lg">
-              We are looking for volunteers to help with various tasks during
-              the conference. Open for volunteer soon will be available.
-            </p>
-            <a class="text-gray-950 opacity-50">Be Prepared</a>
-          </article>
+    <!--=================
+        slider-part end
+    ==================-->
+    <!--=================
+        festive-part start
+    ==================-->
+    <section id="festive-part">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="festive-left">
+              <div class="festive-active">
+                <div class="festive-img">
+                  <img
+                    class="img"
+                    src="images/festive/festive-img2.jpg"
+                    alt="festive-img2"
+                  />
+                  <img
+                    class="festive"
+                    src="images/festive/festive-img1.jpg"
+                    alt="festive-img1"
+                  />
+                </div>
+                <div class="festive-img">
+                  <img
+                    class="img"
+                    src="images/festive/festive-img3.jpg"
+                    alt="festive-img2"
+                  />
+                  <img
+                    class="festive"
+                    src="images/festive/festive-img2.jpg"
+                    alt="festive-img1"
+                  />
+                </div>
+                <div class="festive-img">
+                  <img
+                    class="img"
+                    src="images/festive/festive-img1.jpg"
+                    alt="festive-img2"
+                  />
+                  <img
+                    class="festive"
+                    src="images/festive/festive-img3.jpg"
+                    alt="festive-img1"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="festive-right">
+              <div class="text-img">
+                <h2>20</h2>
+                <h2>24</h2>
+                <p>25-27 October</p>
+              </div>
+              <div class="festive-text">
+                <h2>Celebrating the amazing diversity of Python ecosystem</h2>
+                <p class="fest-para1">
+                  We are delighted to extend our warmest greetings and invite
+                  you to our extraordinary event celebrating the power of Python
+                  to bring impact to society - the Python Conference Asia
+                  Pacific 2024 in the captivating and vibrant archipelago of
+                  Indonesia!
+                </p>
+                <p class="fest-para2">
+                  Join us in this extraordinary journey where history blends
+                  seamlessly with technology, and where the power of Python
+                  unites us to build a brighter future for all. We cannot wait
+                  to welcome you to Yogyakarta, Indonesia for PyCon APAC 2024.
+                </p>
+                <br />
+                <div class="location">
+                  <div class="address">
+                    <br />
+                    <img src="images/festive/location.png" alt="location" />
+                    <!-- <p>Coming Soon</p> -->
+                    <p>Duta Wacana Building</p> Universitas Kristen Duta Wacana
+                  </div>
+                  Jl. Dr. Wahidin Sudirohusodo No.5-25
+                </div>Kota Yogyakarta
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <section id="contact-us" class="w-full">
-      <div
-        class="flex flex-col p-12 gap-y-12 justify-center items-center min-h-max"
-      >
-        <h2 class="text-2xl md:text-5xl">Contact Us</h2>
-        <div class="flex flex-col items-center gap-y-4">
-          <p class="text-center">
-            PyCon APAC 2024 is organized by volunteers, so it may take a week
-            for us to reply to inquiries.
-          </p>
-          <!-- button -->
-          <a
-            href="mailto:pycon@python.or.id"
-            class="bg-[#42449e] text-white font-bold py-2 px-4 rounded-lg hover:bg-[#2c2f6b]"
-          >
-            pycon@python.or.id
-          </a>
+
+    <!--=================
+        festive-part end
+    ==================-->
+    <!--=================
+        festive-part start
+    ==================-->
+    <section id="festive-part">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="festive-text">
+              <h2>About the host</h2>
+              <p class="fest-para1">
+                Yogyakarta can be reached from Indonesia’s major flight hubs
+                like Jakarta, Surabaya, and Denpasar, Bali. You can also travel
+                by trains or buses from any major city in Java Island.
+                Yogyakarta can also be reached from South East Asia hubs like
+                Singapore and Kuala Lumpur.
+              </p>
+
+              <p class="fest-para2">
+                Main airport for Yogyakarta is Yogyakarta International Airport.
+                Secondary airports are Adisucipto Airport and Adisumarmo Airport
+                in the neighboring city of Solo. All mentioned airports have
+                train access to the city center, in Yogyakarta Railway Station.
+                Once you reach the station, the venue is just 3 kilometers or 2
+                miles away. You can use bus, taxi, or ride hailing services like
+                Gojek, Grab, or Maxim.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <img src="images/APAC-map.png" />
         </div>
       </div>
     </section>
+
+    <!--=================
+        festive-part end
+    ==================-->
+    <!--=================
+        article-part start
+    ==================-->
+    <section id="festive-part">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="festive-text">
+              <h2>Why Indonesia</h2>
+              <p class="fest-para1">
+                After six successful Python Conferences in Indonesia, with two
+                of them being online events in pandemic years, Python Indonesia
+                considers 2024 to be the best timing for hosting Python
+                Conference APAC event. We will to host it in Yogyakarta, a
+                college town and tourism center second only to Bali, close to
+                major transportation hubs.
+              </p>
+              <p class="fest-para2">
+                We chose (Em)Powered by Python as the theme for this year’s
+                PyCon APAC to signify how technology isn’t just what is
+                transferred in wires or what is seen on screens but also
+                touches, and improves lives, real lives.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="festive-text">
+              <h2>Why Yogyakarta</h2>
+              <p class="fest-para1">
+                Located in the center of Java island, Yogyakarta is right in the
+                middle between Jakarta and Bali. Two-hours flight away from
+                Singapore and Kuala Lumpur. An elegant weave of history and
+                culture, Yogyakarta presents itself as the perfect host for this
+                conference, where tradition gracefully merges with technology
+                innovation.
+              </p>
+              <p class="fest-para2">
+                It’s a unique place where a thousand years old temple or
+                medieval palaces isn’t far away from an engineering office of
+                startups from Jakarta, Singapore or even Silicon Valley. Local
+                startups aren’t to be undermined either. With many startups
+                working on improving the lives of small businesses, farmers, or
+                fishermen. Stories of people in rural areas improving their
+                lives and their surrounding economy from remote working or
+                online selling. It’s no coincidence that Bill Gates picked
+                Yogyakarta for Gates Foundation’s medical research project. And
+                Mark Zuckerberg visited to see how the digital economy really
+                changes lives.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="festive-right">
+              <div class="festive-text">
+                <h2>Why Now</h2>
+                <p class="fest-para1">
+                  Indonesia's rise in the global tech scene, fueled by a dynamic
+                  startup ecosystem, and driven by technology-led
+                  social-economic improvements, has been nothing short of
+                  remarkable. Embracing information technology like Python's
+                  versatility and efficiency, we've witnessed how this
+                  remarkable programming language has empowered countless
+                  developers, entrepreneurs, and visionaries in Indonesia to
+                  shape the future.
+                </p>
+                <p class="fest-para2">
+                  By choosing Yogyakarta as the gathering place for PyCon APAC,
+                  we aim to create an unforgettable experience where knowledge
+                  is shared, ideas are sparked, and lasting connections are
+                  forged. Together, we will explore the endless possibilities
+                  that Python offers and dive into how it continues to shape the
+                  world of technology, driving innovation and progress across
+                  all sectors.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=================
+        festive-part end
+    ==================-->
   </main>
 </Default>
